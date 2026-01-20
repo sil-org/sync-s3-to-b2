@@ -15,16 +15,6 @@ if [ "${B2_APPLICATION_KEY}" = "" ]; then
 	STATUS=1
 fi
 
-if [ "${AWS_ACCESS_KEY}" = "" ]; then
-	echo "${MYNAME}: FATAL: environment variable AWS_ACCESS_KEY is required."
-	STATUS=1
-fi
-
-if [ "${AWS_SECRET_KEY}" = "" ]; then
-	echo "${MYNAME}: FATAL: environment variable AWS_SECRET_KEY is required."
-	STATUS=1
-fi
-
 if [ "${AWS_REGION}" = "" ]; then
 	echo "${MYNAME}: FATAL: environment variable AWS_REGION is required."
 	STATUS=1
