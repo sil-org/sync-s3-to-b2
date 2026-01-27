@@ -33,5 +33,5 @@ This process uses `rclone sync` to copy changes from a specified directory in an
 
 `RCLONE_ARGUMENTS` - (optional) Extra rclone arguments. For example, adding `--combined -` to `RCLONE_ARGUMENTS` will "list all file paths with a symbol and then a space and then the path to tell you what happened to it".
 
-## Docker Hub
-This image is built automatically on Docker Hub as [silintl/sync-s3-to-b2](https://hub.docker.com/r/silintl/sync-s3-to-b2/).
+## Docker
+This image is built automatically to GitHub Packages (GHCR).
